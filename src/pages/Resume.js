@@ -24,7 +24,7 @@ function Resume() {
                             <span style={{ textAlign: 'justify' }}>
                                 <h3>Software Engineer</h3>
                                 <p style={{ fontStyle: 'italic' }}>
-                                    Beyond Media Global (柏媒網絡科技有限公司), Taipei, Taiwan 03/2023 – now
+                                    Beyond Media Global (柏媒網絡科技有限公司), Taipei, Taiwan 03/2023 – 03/2025
                                 </p>
                                 <p>Required Skills: PHP, JS, HTML, CSS, Python, Liquid, Nginx, Networking, Linux, DevOps</p>
 
