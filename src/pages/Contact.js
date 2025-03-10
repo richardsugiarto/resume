@@ -15,11 +15,12 @@ function Contact() {
                         fontWeight: 'bolder',
                         fontSize: '35px',
                         textTransform: 'uppercase',
+                        display: 'none'
                     }}
                 >
                     Contact
                 </h2>
-                <div style={{ border: '1px solid #e73131', width: '15%', margin: '0 auto' }}></div>
+                <div style={{ border: '1px solid #e73131', width: '15%', margin: '0 auto', display: 'none' }}></div>
                 <div className="Footer" style={{ marginTop: '10vh', color: 'white' }}>
                     <Container maxWidth="xxl" style={{ backgroundColor: 'rgba(0, 0, 0, 0.8)', padding: '0' }}>
                         <Grid container spacing={6} >

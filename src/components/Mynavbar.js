@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './Mynavbar.css';
-import { AppBar, Container, Box, Toolbar, IconButton, Typography, Menu, Avatar, Button, Icon, MenuItem,Grid } from '@mui/material';
+import { AppBar, Container, Box, Toolbar, IconButton, Typography, Menu, Avatar, Button, Icon, MenuItem, Grid } from '@mui/material';
 import EmailIcon from '@mui/icons-material/Email';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
 import { publicURL } from '../utils/publicURL';
 
-const pages = ['Home', 'About', 'Education', 'Resume', 'Skills', 'Publication', 'Contact'];
+const pages = ['Home', 'About', 'Education', 'Resume', 'Skills', 'Publication'];
 
 function Mynavbar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -134,10 +134,10 @@ function Mynavbar() {
                         <Box sx={{ flexGrow: 0, p: 0 }}>
                             <Grid container spacing={0.5}>
                                 <Grid item>
-                                    <a href="mailto:rich.sugiarto@gmail.com" style={{textDecoration:'none',color:'inherit'}}><EmailIcon  sx={{ verticalAlign: 'middle' }} /></a>
+                                    <a href="mailto:rich.sugiarto@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}><EmailIcon sx={{ verticalAlign: 'middle' }} /></a>
                                 </Grid>
                                 <Grid item>
-                                    <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{textDecoration:'none',color:'inherit'}}><LinkedInIcon  sx={{ verticalAlign: 'middle' }} /></a>
+                                    <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{ textDecoration: 'none', color: 'inherit' }}><LinkedInIcon sx={{ verticalAlign: 'middle' }} /></a>
                                 </Grid>
                             </Grid>
                         </Box>
