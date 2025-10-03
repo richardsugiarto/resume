@@ -15,28 +15,28 @@ function App() {
   return (
     <div className="App">
       <div className='back'></div>
-      <Mynavbar/>
+      <Mynavbar />
       <div>
         <section id="Home">
-          <Home/>
+          <Home />
         </section>
         <section id="About">
-          <About/>
+          <About />
         </section>
         <section id="Education">
-          <Education/>
+          <Education />
         </section>
-        <section id="Resume">
-          <Resume/>
+        <section id="Experience">
+          <Resume />
         </section>
         <section id="Skills">
-          <Skills/>
+          <Skills />
         </section>
         <section id="Publication">
-          <Publication/>
+          <Publication />
         </section>
         <section id="Contact">
-          <Contact/>
+          <Contact />
         </section>
       </div>
     </div>

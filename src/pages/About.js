@@ -1,7 +1,7 @@
 import React from 'react';
 import { publicURL } from '../utils/publicURL';
 import './css/About.css';
-import { Container,Grid } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 
 function About() {
     return (
@@ -26,10 +26,11 @@ function About() {
                         </Grid>
                         <Grid item md={6} xs={12}>
                             <p style={{ textAlign: 'justify' }}>
-                                Richard Sugiarto is a React enthusiast. Besides his interest about website and software
-                                engineering, he also learns deep learning. His latest work in 3D pose reconstruction required a thorough
-                                understanding of the design, implementation, and evaluation process of deep learning models. Integrating
-                                deep learning into website and software is an interest for him.
+                                Richard Sugiarto is a Software Engineer with expertise in CMS and eCommerce development <b>(Magento2, WordPress, Shopify, Wix,
+                                    Squarespace)</b> and cloud infrastructure management. Skilled in <b>React</b> and <b>Python</b>, with experience building
+                                integrations such as Zoho Books and Google API sync. Previously optimized UI/UX and system performance as a
+                                CMS React Developer. Recently developed an AI-powered lead qualification system in <b>Python</b> with <b>NVIDIA
+                                    LLaMA</b> and Zapier to automate real-time lead filtering.
                             </p>
                         </Grid>
                     </Grid>
