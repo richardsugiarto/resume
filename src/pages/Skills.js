@@ -12,7 +12,6 @@ function Skills() {
         { label: 'Python', percentage: '85%' },
         { label: 'Machine Learning', percentage: '75%' },
         { label: 'Computer Vision', percentage: '75%' },
-        { label: 'Tensorflow-Keras', percentage: '75%' },
         { label: 'Linux', percentage: '75%' },
     ];
     const Website = [
@@ -20,8 +19,7 @@ function Skills() {
         { label: 'JavaScript', percentage: '75%' },
         { label: 'TypeScript', percentage: '55%' },
         { label: 'PHP', percentage: '55%' },
-        { label: 'NodeJS Express', percentage: '75%' },
-        { label: 'AWS (ECS)', percentage: '50%' },
+        { label: 'AWS (VPS)', percentage: '50%' },
         { label: 'Google Cloud (VPS)', percentage: '50%' },
     ];
     return (
