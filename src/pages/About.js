@@ -26,11 +26,7 @@ function About() {
                         </Grid>
                         <Grid item md={6} xs={12}>
                             <p style={{ textAlign: 'justify' }}>
-                                Richard Sugiarto is a Software Engineer with expertise in CMS and eCommerce development <b>(Magento2, WordPress, Shopify, Wix,
-                                    Squarespace)</b> and cloud infrastructure management. Skilled in <b>React</b> and <b>Python</b>, with experience building
-                                integrations such as Zoho Books and Google API sync. Previously optimized UI/UX and system performance as a
-                                CMS React Developer. Recently developed an AI-powered lead qualification system in <b>Python</b> with <b>NVIDIA
-                                    LLaMA</b> and Zapier to automate real-time lead filtering.
+                                Richard Sugiarto is a Software Engineer focused on <b>Python</b> and <b>React</b> development, experienced in building integrations like Google API sync. I also have expertise in CMS and eCommerce platforms, along with cloud infrastructure management. Previously optimized UI/UX and system performance as a CMS React Developer, and recently built an AI-powered lead qualification system in <b>Python</b> using <b>NVIDIA LLaMA</b> and Zapier for real-time lead filtering automation.
                             </p>
                         </Grid>
                     </Grid>
