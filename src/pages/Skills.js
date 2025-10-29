@@ -17,10 +17,10 @@ function Skills() {
     const Website = [
         { label: 'ReactJS', percentage: '75%' },
         { label: 'JavaScript', percentage: '75%' },
-        { label: 'TypeScript', percentage: '55%' },
-        { label: 'PHP', percentage: '55%' },
-        { label: 'AWS (VPS)', percentage: '50%' },
-        { label: 'Google Cloud (VPS)', percentage: '50%' },
+        { label: 'Docker', percentage: '50%' },
+        { label: 'K8s', percentage: '50%' },
+        { label: 'AWS (EC2 & S3)', percentage: '50%' },
+        { label: 'GCP', percentage: '50%' },
     ];
     return (
         <>
