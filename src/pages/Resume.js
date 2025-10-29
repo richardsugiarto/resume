@@ -9,12 +9,12 @@ function Resume() {
             company: "Beyond Media Global (柏媒網絡科技有限公司), Taipei, Taiwan 03/2023 – 03/2025",
             skills: "PHP, JS, ReactJS, HTML, CSS, Python, Networking, Linux",
             jobs: [
-                "Partnered with designers, project managers, SEO team, and clients to deliver tailored CMS and eCommerce solutions with ongoing support. ",
-                "Defined system architecture independently and aligned development direction with the founder to meet business goals. ",
-                "Engineered and maintained websites on WordPress, Shopify, Wix, Magento2, and Squarespace.",
-                "Designed and implemented custom front-end UI/UX components to improve interactivity and customer engagement.",
-                "Developed applications in React and Python, including APIs and integrations with Zoho Books and Google login systems. ",
-                "Automated lead qualification by building an AI-driven filtering system in Python, integrating NVIDIA LLaMA with Zapier, which enabled real-time identification of high-potential leads and reduced manual screening time. "
+                "Collaborated with cross-functional teams, including designers, PMs, SEO specialists, and clients, to deliver scalable CMS and eCommerce platforms with long-term maintenance support",
+                "Defined and implemented system architecture, aligning development strategy with business objectives and performance requirements",
+                "Engineered and optimized CMS and eCommerce systems on WordPress, Shopify, and Magento2, focusing on performance, SEO, security, and reliability to improve user engagement and conversion rates",
+                "Developed an internal back-office application using React for managing insertion orders, integrating it with backend APIs to streamline data operations and administrative workflows",
+                "Built and deployed API-based applications using React and Python, integrating third-party services such as Zoho Books and Google OAuth for seamless automation",
+                "Automated lead qualification by developing an AI-powered backend service in Python that connected NVIDIA LLaMA with Zapier, reducing manual processing time"
             ]
         },
         {
@@ -22,9 +22,9 @@ function Resume() {
             company: "Funpodium (奕兆有限公司), Taipei, Taiwan 08/2022 – 02/2023",
             skills: "ReactJS, JavaScript, TypeScript, HTML, CSS, PHP, Drupal, Linux",
             jobs: [
-                "Cooperate with product managers and back-end development engineers to complete the requirements and provide continuous technical support.",
-                "Implemented custom React libraries to improve UI/UX consistency and interaction design. ",
-                "Maintain continuous attention to new technologies in front-end related fields and solve problems with reasonable technical solutions."
+                "Collaborated closely with product managers and backend engineers to define API requirements and deliver maintainable, high-performance CMS interfaces",
+                "Engineered reusable React component libraries to ensure consistency, scalability, and efficient integration with backend data systems",
+                "Researched and adopted emerging frontend technologies to improve performance, reliability, and developer workflow"
             ]
         }
     ];
