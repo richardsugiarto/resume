@@ -17,6 +17,7 @@ function Skills() {
     const Website = [
         { label: 'ReactJS', percentage: '75%' },
         { label: 'JavaScript', percentage: '75%' },
+        { label: 'HTML & CSS', percentage: '70%' },
         { label: 'Docker', percentage: '50%' },
         { label: 'K8s', percentage: '50%' },
         { label: 'AWS (EC2 & S3)', percentage: '50%' },
