@@ -32,7 +32,7 @@ function Mynavbar() {
                             variant="h6"
                             noWrap
                             component="a"
-                            href="/"
+                            href="/resume"
                             sx={{
                                 mr: 2,
                                 display: { xs: 'none', md: 'flex' },

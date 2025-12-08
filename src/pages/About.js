@@ -22,7 +22,7 @@ function About() {
                     <div style={{ border: '1px solid #e73131', width: '15%', margin: '0 auto' }}></div>
                     <Grid container style={{ paddingTop: '10vh' }}>
                         <Grid item md={6} xs={12}>
-                            <img src={publicURL('/assets/neural.png')} width={400} height={300} className="i-about" />
+                            <img src={publicURL('/assets/3d-boy-peep.png')} height={400} className="i-about" />
                         </Grid>
                         <Grid item md={6} xs={12}>
                             <p style={{ textAlign: 'justify' }}>
