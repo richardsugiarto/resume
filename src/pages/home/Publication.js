@@ -1,7 +1,7 @@
 import React from 'react';
-import { publicURL } from '../utils/publicURL';
+import { publicURL } from '../../utils/publicURL';
 import './css/Publication.css';
-import { Container,Grid } from '@mui/material';
+import { Container, Grid } from '@mui/material';
 
 function Publication() {
     return (

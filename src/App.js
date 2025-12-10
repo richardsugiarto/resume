@@ -1,44 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import Mynavbar from './components/Mynavbar';
+import MyNavbarV2 from './components/MyNavbarV2';
 import React from 'react';
-import Home from './pages/Home';
-import About from './pages/About';
-import Education from './pages/Education';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Skills from './pages/Skills';
-import Publication from './pages/Publication';
-
+import HomePage from './pages/home/HomePage';
+import ExperiencePage from './pages/ExperiencePage';
+import ProjectDetailPage from './pages/ProjectDetailPage';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <div className='back'></div>
-      <Mynavbar />
-      <div>
-        <section id="Home">
-          <Home />
-        </section>
-        <section id="About">
-          <About />
-        </section>
-        <section id="Education">
-          <Education />
-        </section>
-        <section id="Experience">
-          <Resume />
-        </section>
-        <section id="Skills">
-          <Skills />
-        </section>
-        <section id="Publication">
-          <Publication />
-        </section>
-        <section id="Contact">
-          <Contact />
-        </section>
-      </div>
+      <Router>
+        <MyNavbarV2 />
+        <Routes>
+          <Route path="/" element={<div className='App'><HomePage /></div>} />
+          <Route path="/experience" element={<ExperiencePage />} />
+          <Route path="/experience/:projectId" element={<ProjectDetailPage />} /> {/* dynamic route */}
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

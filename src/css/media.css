@@ -32,6 +32,9 @@
         height: 250px;
         margin-bottom: 10vh;
     }
+    div.myContainer{
+        padding-top:10vh;
+    }
   }
 @media only screen and (min-width:901px)
 {
@@ -41,5 +44,8 @@
     }
     p {
         font-size: x-large;
+    }
+    p.medium{
+        font-size: medium;
     }
 }
