@@ -1,33 +1,9 @@
 import React from 'react';
 import './css/Resume.css';
 import { Container, Grid } from '@mui/material';
+import experienceData from '../../data/experience';
 
 function Resume() {
-    const exp = [
-        {
-            title: "Software Engineer",
-            company: "Beyond Media Global (柏媒網絡科技有限公司), Taipei, Taiwan 03/2023 – 03/2025",
-            skills: "PHP, JS, ReactJS, HTML, CSS, Python, Networking, Linux",
-            jobs: [
-                "Collaborated with cross-functional teams, including designers, PMs, SEO specialists, and clients, to deliver scalable CMS and eCommerce platforms with long-term maintenance support",
-                "Defined and implemented system architecture, aligning development strategy with business objectives and performance requirements",
-                "Engineered and optimized CMS and eCommerce systems on WordPress, Shopify, and Magento2, focusing on performance, SEO, security, and reliability to improve user engagement and conversion rates",
-                "Developed an internal back-office application using React for managing insertion orders, integrating it with backend APIs to streamline data operations and administrative workflows",
-                "Built and deployed API-based applications using React and Python, integrating third-party services such as Zoho Books and Google OAuth for seamless automation",
-                "Automated lead qualification by developing an AI-powered backend service in Python that connected NVIDIA LLaMA with Zapier, reducing manual processing time"
-            ]
-        },
-        {
-            title: "CMS React Developer",
-            company: "Funpodium (奕兆有限公司), Taipei, Taiwan 08/2022 – 02/2023",
-            skills: "ReactJS, JavaScript, TypeScript, HTML, CSS, PHP, Drupal, Linux",
-            jobs: [
-                "Collaborated closely with product managers and backend engineers to define API requirements and deliver maintainable, high-performance CMS interfaces",
-                "Engineered reusable React component libraries to ensure consistency, scalability, and efficient integration with backend data systems",
-                "Researched and adopted emerging frontend technologies to improve performance, reliability, and developer workflow"
-            ]
-        }
-    ];
     return (
         <>
             <div className="myResume">
@@ -45,8 +21,8 @@ function Resume() {
                     </h2>
                     <div style={{ border: '1px solid #e73131', width: '15%', margin: '0 auto' }}></div>
                     <Grid container style={{ paddingTop: '10vh' }} spacing={6}>
-                        {exp.map(({ title, company, skills, jobs }) => (
-                            <Grid item md={6} xs={12}>
+                        {experienceData.map(({ title, company, skills, jobs }) => (
+                            <Grid item md={6} xs={12} key={title}>
                                 <span style={{ textAlign: 'justify' }}>
                                     <h3>{title}</h3>
                                     <p style={{ fontStyle: 'italic' }}>
@@ -54,7 +30,7 @@ function Resume() {
                                     </p>
                                     <p>Required Skills: {skills}</p>
                                     {jobs.map((job) => (
-                                        <p>►{job}</p>
+                                        <p className='medium'>►{job}</p>
                                     ))}
 
                                 </span>

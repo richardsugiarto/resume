@@ -1,5 +1,5 @@
 import React from 'react';
-import { publicURL } from '../utils/publicURL';
+import { publicURL } from '../../utils/publicURL';
 import './css/About.css';
 import { Container, Grid } from '@mui/material';
 
