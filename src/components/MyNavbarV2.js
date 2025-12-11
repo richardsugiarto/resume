@@ -7,7 +7,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
 import { publicURL } from '../utils/publicURL';
 
-const pages = [{ label: "Home", url: "/" }, { label: "Experience", url: "/experience" }];
+const pages = [{ label: "Home", url: "/" }, { label: "Experience", url: "/experience" }, { label: "Thesis", url: "/thesis" }];
 
 function MyNavbarV2() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
