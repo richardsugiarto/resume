@@ -2,6 +2,7 @@ import React from 'react';
 import { publicURL } from '../../utils/publicURL';
 import './css/Publication.css';
 import { Container, Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Publication() {
     return (
@@ -26,7 +27,7 @@ function Publication() {
                         </Grid>
                         <Grid item md={6} xs={12}>
                             <p style={{ textAlign: 'justify' }}>
-                                <b>[P1]</b> Helmet Usage Detection on Motorcyclist Using Deep Residual Learning
+                                <b><Link to="/thesis/bachelorthesis/">[P1]</Link></b> Helmet Usage Detection on Motorcyclist Using Deep Residual Learning
                                 <span style={{ fontFamily: 'courier', display: 'inline-block' }}>
                                     2021 3rd East Indonesia Conference on Computer and Information Technology (EIConCIT), IEEE
                                 </span>

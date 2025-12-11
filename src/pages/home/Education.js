@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/Education.css';
 import { Container, Grid } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 function Education() {
     return (
@@ -41,7 +42,7 @@ function Education() {
                                 <p>
                                     Final Project: Helmet Usage Detection on Motorcyclist Using Deep Residual Learning{' '}
                                     <b>
-                                        <a href="#Publication">[P1]</a>
+                                        <Link to="/thesis/bachelorthesis/">[P1]</Link>
                                     </b>
                                     . Helmet Usage Detection on Motorcyclist Using Deep Residual Learning is an automated way to detect
                                     motorcyclists who do not wear a helmet from dashcam footage.
