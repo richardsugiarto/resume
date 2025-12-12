@@ -40,7 +40,7 @@ function Footer() {
                             <Grid item md={4} xs={12}>
                                 <h6 style={{ fontWeight: 'bold', marginBottom: '2em', textTransform: 'uppercase' }}>Contact</h6>
                                 <a href="mailto:rich.sugiarto@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}><p><EmailIcon /> rich.sugiarto@gmail.com</p></a>
-                                <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{ textDecoration: 'none', color: 'inherit' }}><p><LinkedInIcon /> linkedin.com/in/richard-sugiarto-32b677132</p></a>
+                                <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{ textDecoration: 'none', color: 'inherit' }}><p><LinkedInIcon /> Richard Sugiarto</p></a>
                             </Grid>
                             <Grid item md={12} xs={12} style={{ marginBottom: '1vh', backgroundColor: 'rgba(0, 0, 0, 0.9)', paddingTop: '10px', paddingBottom: '10px' }}>
                                 © 2025 Copyright: Richard Sugiarto
