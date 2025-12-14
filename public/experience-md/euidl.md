@@ -1,4 +1,4 @@
-# ![EUI Logo](/experience-md/euidl/image1.png) Eastern Union Interactive Corp.  
+# ![EUI Logo](/experience-md/euidl/image0.png)
 
 ## Introduction
 This project focuses on creating a lightweight module that helps administrators validate data submitted by users.  

@@ -3,6 +3,7 @@ const base = process.env.PUBLIC_URL || ""
 const thesisData = [
     {
         id: "masterthesis",
+        degree: "Master's Thesis",
         coverImage: base + "/thesis-md/masterthesis/image4.png",
         description: "A multi-camera motion learning system that reconstructs 3D human poses and evaluates motion similarity.",
         mdFile: base + "/thesis-md/masterthesis.md",
@@ -11,6 +12,7 @@ const thesisData = [
     },
     {
         id: "bachelorthesis",
+        degree: "Bachelor's Thesis",
         coverImage: base + "/thesis-md/bachelorthesis/image5.png",
         description: "Helmet Usage Detection on Motorcyclist is an automated way to detect motorcyclists who do not wear a helmet from dashcam footage.",
         mdFile: base + "/thesis-md/bachelorthesis.md",
