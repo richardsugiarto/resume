@@ -21,8 +21,8 @@ function Resume() {
                     </h2>
                     <div style={{ border: '1px solid #e73131', width: '15%', margin: '0 auto' }}></div>
                     <Grid container style={{ paddingTop: '10vh' }} spacing={6}>
-                        {experienceData.map(({ title, company, skills, jobs }) => (
-                            <Grid item md={6} xs={12} key={title}>
+                        {experienceData.map(({ id, title, company, skills, jobs, isShownInResume }) => isShownInResume && (
+                            <Grid key={id} item md={6} xs={12} >
                                 <span style={{ textAlign: 'justify' }}>
                                     <h3>{title}</h3>
                                     <p style={{ fontStyle: 'italic' }}>
@@ -30,30 +30,12 @@ function Resume() {
                                     </p>
                                     <p>Required Skills: {skills}</p>
                                     {jobs.map((job) => (
-                                        <p className='medium'>►{job}</p>
+                                        <p className='medium' key={job}>►{job}</p>
                                     ))}
 
                                 </span>
                             </Grid>
                         ))}
-                        <Grid item md={6} xs={12}>
-                            <span style={{ textAlign: 'justify', display: 'none' }}>
-                                <h3>Freelance Deep Learning Developer</h3>
-                                <p style={{ fontStyle: 'italic' }}>
-                                    Eastern Union Interactive Corp. (EUI), Taipei, Taiwan 06/2020 – 01/2021
-                                </p>
-                                <p>Required Skills: Python, Machine Learning, Computer Vision, Android Native, IOS</p>
-                                <p>
-                                    ►Developed glare-detection using OpenCV to apply pre-processing steps of Taiwan’s Alien Resident
-                                    Certificate (ARC)’s validation.
-                                </p>
-                                <p>
-                                    ►Designed a light-weight module to validate the position ARC card by perform ARC card recognition given
-                                    an RGB image using tiny-yolo.
-                                </p>
-                                <p>►Implemented the glare- and landmark-detection modules using Android Studio and IOS swift.</p>
-                            </span>
-                        </Grid>
                         <Grid item md={6} xs={12}>
 
                             <span style={{ textAlign: 'justify', display: 'none' }}>
