@@ -12,12 +12,13 @@ const experienceData = [
     company: "Beyond Media Global (柏媒網絡科技有限公司), Taipei, Taiwan 03/2023 – 03/2025",
     skills: "PHP, JS, ReactJS, HTML, CSS, Python, Networking, Linux",
     jobs: [
-      "Collaborated with cross-functional teams, including designers, PMs, SEO specialists, and clients, to deliver scalable CMS and eCommerce platforms with long-term maintenance support",
-      "Defined and implemented system architecture, aligning development strategy with business objectives and performance requirements",
-      "Engineered and optimized CMS and eCommerce systems on WordPress, Shopify, and Magento2, focusing on performance, SEO, security, and reliability to improve user engagement and conversion rates",
+
+      "Automated lead qualification by developing an AI-powered backend service in Python that connected NVIDIA LLaMA with Zapier, reducing manual processing time",
       "Developed an internal back-office application using React for managing insertion orders, integrating it with backend APIs to streamline data operations and administrative workflows",
       "Built and deployed API-based applications using React and Python, integrating third-party services such as Zoho Books and Google OAuth for seamless automation",
-      "Automated lead qualification by developing an AI-powered backend service in Python that connected NVIDIA LLaMA with Zapier, reducing manual processing time"
+      "Collaborated with cross-functional teams, including designers, PMs, SEO specialists, and clients, to deliver scalable CMS and eCommerce platforms with long-term maintenance support",
+      "Defined and implemented system architecture, aligning development strategy with business objectives and performance requirements",
+      "Engineered and optimized CMS and eCommerce systems on WordPress, Shopify, and Magento2, focusing on performance, SEO, security, and reliability to improve user engagement and conversion rates"
     ],
     isShownInResume: true
   },
