@@ -20,7 +20,7 @@ export default function ExperiencePage() {
         <Grid container spacing={2}>
           {experienceData.map((project) => (
             <Grid key={project.id} item xs={12} sm={6} md={4}>
-              <Card sx={{ maxWidth: 400 }}>
+              <Card sx={{ maxWidth: 900 }}>
                 <CardMedia
                   component="img"
                   height="220"

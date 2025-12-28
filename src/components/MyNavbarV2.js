@@ -2,12 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Mynavbar.css';
 import { AppBar, Container, Box, Toolbar, IconButton, Typography, Menu, Avatar, Button, Icon, MenuItem, Grid } from '@mui/material';
-import EmailIcon from '@mui/icons-material/Email';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import MenuIcon from '@mui/icons-material/Menu';
 import { publicURL } from '../utils/publicURL';
 
-const pages = [{ label: "Home", url: "/" }, { label: "Experience", url: "/experience" }, { label: "Thesis", url: "/thesis" }];
+const pages = [{ label: "Home", url: "/" }, { label: "Experience", url: "/experience" }, { label: "Thesis", url: "/thesis" }, { label: "Personal Projects", url: "/personal-projects" }];
 
 function MyNavbarV2() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -123,7 +123,7 @@ function MyNavbarV2() {
                         <Box sx={{ flexGrow: 0, p: 0 }}>
                             <Grid container spacing={0.5}>
                                 <Grid item>
-                                    <a href="mailto:rich.sugiarto@gmail.com" style={{ textDecoration: 'none', color: 'inherit' }}><EmailIcon sx={{ verticalAlign: 'middle' }} /></a>
+                                    <a href="https://github.com/richardsugiarto" style={{ textDecoration: 'none', color: 'inherit' }}><GitHubIcon sx={{ verticalAlign: 'middle' }} /></a>
                                 </Grid>
                                 <Grid item>
                                     <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{ textDecoration: 'none', color: 'inherit' }}><LinkedInIcon sx={{ verticalAlign: 'middle' }} /></a>
