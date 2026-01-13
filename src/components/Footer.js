@@ -43,7 +43,7 @@ function Footer() {
                                 <a href="https://www.linkedin.com/in/richard-sugiarto-32b677132/" style={{ textDecoration: 'none', color: 'inherit' }}><p><LinkedInIcon /> Richard Sugiarto</p></a>
                             </Grid>
                             <Grid item md={12} xs={12} style={{ marginBottom: '1vh', backgroundColor: 'rgba(0, 0, 0, 0.9)', paddingTop: '10px', paddingBottom: '10px' }}>
-                                © 2025 Copyright: Richard Sugiarto
+                                © 2026 Copyright: Richard Sugiarto
                             </Grid>
                         </Grid>
                     </Container>
