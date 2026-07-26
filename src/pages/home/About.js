@@ -26,7 +26,7 @@ function About() {
                         </Grid>
                         <Grid item md={6} xs={12}>
                             <p style={{ textAlign: 'justify' }}>
-                                Richard Sugiarto is a Software Engineer focused on <b>Python</b> and <b>React</b> development, experienced in building integrations like Google API sync. Recently, built an AI-powered lead qualification system in <b>Python</b> using <b>NVIDIA LLaMA</b> and Zapier for real-time lead filtering automation. I also have expertise in CMS and eCommerce platforms, along with cloud infrastructure management. Previously also optimized UI/UX and system performance as a CMS React Developer.
+                                Richard Sugiarto is a Software Engineer focused in AI, <b>Machine Learning</b>, and <b>Python development</b>. He has built AI systems, including an <b>MCP-based AI research-matchmaking agent</b> with a custom tool-calling backend (OpenAlex and web verification) and system prompt for reliable multi-step research workflows. He also strengthened a company-wide <b>DL/ML platform</b> by improving statistical rigour, expanding model capabilities, and delivering reliable, reproducible model evaluation at scale, and previously developed an <b>AI-powered lead qualification system</b> using llama and Zapier for real-time automation.
                             </p>
                         </Grid>
                     </Grid>

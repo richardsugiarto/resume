@@ -13,7 +13,7 @@ function Home() {
                         <Grid item md={6} xs={12}>
                             <div className="hometext">
                                 <h1>Hi I'm Richard Sugiarto</h1>
-                                <h2>Software Engineer & Website Developer</h2>
+                                <h2>AI Engineer & Software Engineer</h2>
                                 <br />
                                 <Button variant="primary" href="mailto:rich.sugiarto@gmail.com" size="large" sx={{ backgroundColor: '#212529', color: 'white' }}>
                                     Contact Now

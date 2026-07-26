@@ -2,6 +2,24 @@ const base = process.env.PUBLIC_URL || ""
 
 const experienceData = [
   {
+    id: "therapiai",
+    companyNamePortfolio: "TherapiAI (網資科技股份有限公司)",
+    jobTitle: "AI Engineer",
+    description: "Worked as AI Engineer who experienced in building and optimizing Machine Learning/Deep Learning pipelines and applications with a focus on performance, scalability, and user experience. Skilled in machine learning, deep learning, and computer vision, including developing AI-powered solutions to streamline workflows and improve user engagement.",
+    logo: base + "/experience-md/therapiai/image1.png",
+    mdFile: base + "/experience-md/therapiai.md",
+    title: "AI Engineer",
+    company: "TherapiAI (網資科技股份有限公司), Taipei, Taiwan 02/2026 – Present",
+    skills: "Machine Learning, Pytorch, Python, Docker",
+    jobs: [
+
+      "Built an MCP server integrating OpenAlex and web search APIs to power an AI research agent, engineering its tool-calling workflow, system prompt, and authenticated Streamable HTTP integration for reliable multi-step research.",
+      "Enhanced a company-wide ML/DL platform by improving statistical model evaluation, adding end-to-end regression support, strengthening reproducibility and explainability, and maintaining a clean, reliable codebase.",
+      "Built a POC applying computer vision techniques to preprocess image data, validating its end-to-end value by training and evaluating models on the preprocessed data using the company's DL/ML pipeline."
+    ],
+    isShownInResume: true
+  },
+  {
     id: "bmgse",
     companyNamePortfolio: "Beyond Media Global",
     jobTitle: "Software Engineer",
