@@ -4,8 +4,8 @@ import { Container, Grid } from '@mui/material';
 
 function Skills() {
     const Language = [
-        { label: 'English', percentage: '75%' },
-        { label: 'Chinese', percentage: '20%' },
+        { label: 'English', percentage: '85%' },
+        { label: 'Chinese', percentage: '35%' },
         { label: 'Indonesian', percentage: '100%' },
     ];
     const DeepLearning = [
